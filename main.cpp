@@ -68,6 +68,7 @@ int main(void)
     SDL_RenderPresent(renderer);
     while (1)
     {
+        SDL_RenderPresent(renderer);
         if (SDL_PollEvent(&event) && event.type == SDL_QUIT)
             break;
     }
